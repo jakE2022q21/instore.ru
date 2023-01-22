@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
-   <div class="moble_header">
+   <div class="moble_header" id="mobile">
     <div class="all_con">
        
          <div class="moble_logo">
@@ -27,9 +27,9 @@
         </div>
     
                 <div class="burger_menu">
-                   <a href="#">Товары</a>
-                   <a href="#">Доставка</a>
-                   <a href="#">Контакты</a> 
+                   <a href="#shop">Товары</a>
+                   <a href="#dpd">Доставка</a>
+                   <a href="#contacts">Контакты</a> 
                 </div>
             </div>
        
@@ -102,7 +102,7 @@
 <a href="#magaz" class="BTN">МАГАЗИН</a>
 </div> -->
 
-<div class="kol">
+<div class="kol" id="shop">
     <div class="class">
         <div class="image"></div>
         <div class="text">
@@ -229,11 +229,11 @@
             <span class="cen"></span>
         </div>
     </div>
-    <div class="dpd">
+    <div class="dpd" id="dpd">
     <h1>О доставке</h1>
     <p>Мы находимся в Санкт-Петербурге. Вы можете самостоятельно забрать покупку из точки самовывоза или заказать доставку курьером по городу в пределах КАД. Также доступна доставка почтой по всей России.</p>
 </div>
-<div class="cont">
+<div class="cont" id="contacts">
     <div class="cont_all">
         <h1>Контакты</h1>
         <p>Мы всегда стремимся подружиться с нашими клиентами, звоните и пишите нам по любым вопросам.</p>
@@ -270,6 +270,12 @@
     </div>
 </div>
 <footer></footer>
+</div>
+<div class="arrow">
+    <a href="#mobile">
+        <img src="https://cdn-icons-png.flaticon.com/512/3227/3227505.png">
+    </a>
+
 </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
