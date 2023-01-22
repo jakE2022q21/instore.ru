@@ -11,6 +11,10 @@ html, body {
     margin: 0; box-sizing: border-box;
 } 
 
+.cnten {
+    overflow: hidden;
+}
+
 .shapka {
     position: absolute;
     top: 0;
@@ -519,6 +523,10 @@ html:root{
 .moble_header{
     display: none;
 }
+
+.arrow {
+    display: none;
+}
 @media(max-width: 1030px) {
     * {
         box-sizing: border-box;
@@ -643,5 +651,24 @@ top: 35%;
 }
 .dpd p{
     font-size: 24px;
+}
+.arrow{
+    display: block;
+    position: absolute;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    top: 450px;
+}
+.arrow a {
+    position: fixed;
+    z-index: 20;
+}
+.arrow img {
+    opacity: 70%;
+    width: 45spx;
+}
+.cnten{
+    position: relative;
 }
 }
