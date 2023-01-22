@@ -1,0 +1,674 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Dancing+Script:wght@600&family=Mulish:ital@1&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+*{
+    padding: 0;
+    margin: 0; box-sizing: border-box;
+} 
+
+.cnten {
+    overflow: hidden;
+}
+
+.shapka {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    color: white;
+    
+   
+    width: 100%;
+    height: 70px;
+    
+}
+.shapka > *{
+position: absolute; }
+
+.shapka h1 {
+    top: 50%;
+    transform: translateY(-50%);
+    letter-spacing: 2px;
+    margin-left: 42%;
+    font-size: 44px;
+}
+.number{
+    height: 100%;;
+display: flex;
+align-items: center;
+flex-direction: row;
+position: absolute;
+right: 3%;
+justify-content: space-between;
+width: 290px;
+} 
+
+
+.icon img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.headimg {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/people-decorating-christmas-tree-set_52683-28986.jpg?w=740&t=st=1671946909~exp=1671947509~hmac=b99b6644c7991e8d70b04c91b26b00ec4bc65de731cba28619d5410ed16ec4f4https://img.freepik.com/free-vector/people-decorating-christmas-tree-set_52683-28986.jpg?w=740&t=st=1671946909~exp=1671947509~hmac=b99b6644c7991e8d70b04c91b26b00ec4bc65de731cba28619d5410ed16ec4f4);
+    /* background-image: url(https://api.interior.ru/images/gl/24-09-2021/Grohe_SPA_Collection2021_1_.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.number a{
+    text-decoration: none;
+    color: #fff;
+}
+.slide2 {
+    background-image: url(https://i.redd.it/mtme04cvxp761.png);
+}
+.shapka h1:hover{  
+     
+    
+transition: 300ms;
+text-shadow: 20px 20px 0px black ;
+}
+.icon img:hover{
+    box-shadow: 5px 7px 12px black;
+    border-radius: 50%;
+
+}
+.texstbloc{
+    
+    top: 250px;
+    width: 500px;
+    display: flex;
+justify-content: center;
+align-items: center;
+padding: 0;
+margin: 0;
+flex-direction: column;
+color: aliceblue;
+left: 0;
+right: 0;
+margin: auto;
+position: absolute;
+
+}
+.texstbloc h1{
+font-size: 45px;
+
+}
+.BTN{
+    text-decoration: none;
+    margin-top: 65px;
+    background-color: aliceblue;
+    padding: 15px 50px 15px 50px;
+    color: black;
+   
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 30px;
+    
+}
+.BTN:hover {
+    /* background-image: url(https://images.wallpaperscraft.ru/image/single/kosmonavt_astronavt_art_134410_300x168.jpg);  */
+    background-size: cover;
+    color: rgb(235, 235, 221);
+background-position-y: center;
+transition: 3s;
+background-image: url(https://img1.goodfon.ru/wallpaper/nbig/a/c3/kosmos-3d-art-krasnyy.jpg);
+/* background-image: url(https://vsegda-pomnim.com/uploads/posts/2022-02/1645921821_1-vsegda-pomnim-com-p-dim-foto-1.jpg); */
+}
+.look{
+    font-size: 30px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+width: 100%;
+align-items: center;
+flex-direction: column;
+   
+
+}
+.lok{
+flex-wrap: wrap;
+max-width: 750px;
+text-align: center;
+display: flex;
+justify-content: center;
+
+
+
+}
+.kol {display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+flex-direction: row;
+flex: 1 1 auto;
+margin-top:120px;
+/* padding: 20px; */
+width: 100%;
+}
+.image {
+width: 260px;
+height: 260px;
+background-image: url("https://thumb.tildacdn.com/tild3361-6231-4233-b638-636635383865/-/cover/560x560/center/center/-/format/webp/bluebook.jpg");
+background-position: center;
+background-size: contain;
+}
+.image:hover{
+    background-image: url(https://static.tildacdn.com/tild3033-3436-4436-a133-353432366366/yellowbook.jpg);
+background-position: center;
+background-size: contain; 
+}
+.text {
+/* margin: 15px 0 15px 0; */
+
+
+}
+
+.kol h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.image1 {
+    width: 260px;
+    height: 260px;
+    background-image: url(/Новая\ папка/1.jpg);
+    background-position: center;
+    background-size: contain;
+    }
+.class {
+display: flex;
+justify-content: center;
+align-items: center;
+
+flex-wrap: wrap;
+flex-direction: column;
+margin: 10px;
+/* width: 100%; */
+position: relative;
+text-align: center;
+
+
+}
+.con{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ffc117;
+    border-radius: 50%;
+    right: 10px;
+    top: 10px;
+    display: flex;
+justify-content: center;
+align-items: center;
+font-size: 12px;
+}
+
+.class h2 {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.text1 .cen{
+    color: #bdbdbd;
+    text-decoration: line-through   ;
+}
+
+.text1 h2{
+    margin-bottom: 15px;
+}
+
+.text1 {
+    margin: 15px 0px 15px 0;
+
+}
+
+
+.text2 {
+    margin: 15px 0 15px 0;
+    
+    
+    }
+    
+    .text2 h2{
+        margin-bottom: 15px;
+    }
+    
+    .image2 {
+        width: 260px;
+        height: 260px;
+        background-image: url(https://thumb.tildacdn.com/tild3831-6339-4336-b365-303235653334/-/resize/260x270/-/format/webp/poster.jpg);
+        background-position: center;
+        background-size: contain;
+        }
+
+.text2 {margin: 15px 0 15px 0;
+            
+            
+}
+            
+.text2 h2{
+margin-bottom: 15px;
+}
+            
+.image2 {
+width: 260px;
+height: 260px;
+background-image: url(https://thumb.tildacdn.com/tild3831-6339-4336-b365-303235653334/-/resize/260x270/-/format/webp/poster.jpg);
+background-position: center;
+background-size: contain;
+}
+
+.text2 {
+    margin: 15px 0 15px 0;
+    
+    
+    }
+    
+    .text2 h2{
+        margin-bottom: 15px;
+    }
+    
+    .image2 {
+        width: 260px;
+        height: 260px;
+        background-image: url(https://thumb.tildacdn.com/tild3831-6339-4336-b365-303235653334/-/resize/260x270/-/format/webp/poster.jpg);
+        background-position: center;
+        background-size: contain;
+        }
+
+.text3 {
+margin: 15px 0 15px 0;
+max-width: 260px;
+    
+    
+}
+    
+.text3 h2{
+    margin-bottom: 15px;
+}
+    
+.image3 {
+    margin-top: 25px;
+     width: 260px;
+     height: 260px;
+     background-image: url(https://thumb.tildacdn.com/tild3866-3866-4739-a536-343862303065/-/resize/260x270/-/format/webp/books.jpg);
+     background-position: center;
+     background-size: contain;
+     }
+.text4 {
+margin: 15px 0 15px 0;
+}
+            
+.text4 h2{
+margin-bottom: 15px;
+}
+            
+.image4 {
+width: 260px;
+height: 260px;
+background-image: url(https://thumb.tildacdn.com/tild3662-3563-4639-b963-356636653831/-/resize/260x270/-/format/webp/clock.jpg);
+background-position: center;
+background-size: contain;
+}
+.text5 {
+margin: 15px 0 15px 0;
+}
+                
+.text5 h2{
+margin-bottom: 15px;
+}
+                
+.image5 {
+width: 260px;
+height: 260px;
+background-image: url(https://static.tildacdn.com/tild3764-3933-4832-a163-366565666534/bag.jpg);
+background-position: center;
+background-size: contain; 
+}
+.text {
+margin: 15px 0 15px 0;
+}
+                    
+.text6 h2{
+    margin-top: 25px;
+margin-bottom:15px;
+max-width: 300px;
+}
+                    
+.image6 {
+width: 260px;
+height: 260px;
+background-image: url(https://static.tildacdn.com/tild3931-3338-4561-a230-646135343530/backpack.jpg);
+background-position: center;
+background-size: contain; 
+}
+.text7 {
+margin: 15px 0 15px 0;
+max-width: 260px;
+}
+                        
+.text7 h2{
+margin-bottom: 15px;
+max-width: 300px;
+}
+                        
+.image7 {
+    margin-top: 27px;
+width: 260px;
+height: 260px;
+background-image: url(https://static.tildacdn.com/tild3139-3339-4235-b865-333936666362/calendar.jpg);
+background-position: center;
+background-size: contain; 
+}
+.text8 {
+margin: 15px 0 15px 0;
+}
+                            
+.text8 h2{
+ margin-bottom: 15px;
+    
+    }
+                            
+    .image8 {
+    width: 260px;
+    height: 260px;
+    background-image: url(https://static.tildacdn.com/tild3565-3534-4732-b931-333564303633/bl.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.text9 {
+margin: 15px 0 15px 0;
+}
+                                
+.text9 h2{
+ margin-bottom: 15px;
+        
+ }
+                                
+.image9 {
+width: 260px;
+height: 260px;
+background-image: url(https://static.tildacdn.com/tild3965-3166-4163-b837-323738396164/cl.jpg);
+background-position: center;
+background-size: contain;
+}
+.text10 {
+    margin: 15px 0 15px 0;
+    }
+                                    
+    .text10 h2{
+     margin-bottom: 15px;
+            
+     }
+                                    
+    .image10 {
+    width: 260px;
+    height: 260px;
+    background-image: url(https://static.tildacdn.com/tild3866-6463-4361-b732-626363656565/golden.jpg);
+    background-position: center;
+    background-size: contain 
+}
+.text11 {
+    margin: 15px 0 15px 0;
+    }
+                                    
+    .text11 h2{
+     margin-bottom: 15px;
+            
+     }
+                                    
+    .image11 {
+    width: 260px;
+    height: 260px;
+    background-image: url(https://static.tildacdn.com/tild3466-3831-4539-a666-386439343731/26216513623_9d5cac986a_o.jpg);
+    background-position: center;
+    background-size: contain 
+}
+
+.dpd{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dpd  p{
+max-width: 760px;
+font-size: 30px;
+font-weight: 300;
+margin: 30px;
+}
+.cont { 
+    width: 100%;
+    height: 100vh;
+    background-color: #1f2f3d;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cont_all p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    max-width: 560px;
+margin-bottom: 75px;
+}
+.tel {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.tel span{
+    display: block;
+
+}
+.cont_all h1{
+    font-size: 42px;
+    margin-bottom: 30px;
+
+}
+.foot_all {
+    width: 100%;
+    background-color: #141414;
+    color: #939393;
+    font-size: 14px;
+    text-align: center;
+    padding: 75px  75px 60px 75px;
+    display: flex;
+    justify-content: center;
+}
+.span{
+    max-width: 560px;
+
+}
+.span span{ 
+    font-size: 14px;
+}
+.span  P{
+    margin-top: 25px;
+}
+.span a{
+    text-decoration: none;
+    color:#ff8562;
+    font-weight: 300;
+}
+/* mobile */
+
+.swiper-button-next:after, 
+.swiper-button-prev:after  {
+   color: #fff;
+   font-size: 15px;
+}
+html:root{
+    --swiper-theme-color: rgb(240, 240, 240);
+}
+
+.content h1::before{
+
+}
+
+.moble_header{
+    display: none;
+}
+
+.arrow {
+    display: none;
+}
+@media(max-width: 1030px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html, body {
+        box-sizing: border-box;
+    }
+    html {
+        overflow: auto;
+    }
+    body {
+        overflow: hidden;
+    }
+    .shapka{
+        display: none;
+    }
+.moble_header{
+    display: block;
+    width: 100%;
+  background-color: #000;
+
+
+
+}
+.all_con{
+width: 100%;
+height: 60px;
+background-color: #111;
+padding: 0 15px 0 15px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+transition: 0.3s;
+}
+.moble_logo img {
+    width: 50px;
+}
+.burger_moble{
+    width: 30px;
+    height: 20px;
+    position: relative;
+}
+.burger::before,
+.burger::after{
+content: '';
+background-color: #fff;
+height: 2px;
+width: 100%;
+position: absolute;
+transition: 0.5s;
+}
+
+.burger span {
+    background-color: #fff;
+height: 2px;
+width: 100%;
+position: absolute;
+top: 9px;
+}
+
+
+
+.burger::before{
+top: 0;
+}
+.burger::after{
+bottom: 0;
+}
+.burger.active::after{
+transform: rotate(-45deg);
+bottom: 9px;
+}
+.burger.active::before{
+    transform: rotate(45deg);
+    top: 9px;
+}
+
+.burger.active span {
+    transform: scale(0);
+    transition: 0.2s;
+}
+.burger_menu{
+    width: 100%;
+    height: 100vh;
+    transition: 0.5s;
+    align-items: center;
+    display: flex;  
+    position: absolute;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    /* top: -100%; */
+    background-color: #000;
+    margin-top: 60px;
+}
+.burger_menu a{
+    text-decoration: none;
+   color: #fff;
+   margin: 20px ;
+}
+
+.burger_menu.active {
+top: 0;
+position: absolute;
+height: 100%;
+transition: 1ыs;
+z-index: 20;
+
+}
+}
+@media (max-width:620px) {
+.texstbloc h1{
+width: 100%;
+padding: 0 20px;
+text-align: center;
+top: 35%;
+}
+.swiper-button-prev,
+.swiper-button-next{
+    display: none;
+}
+.dpd p{
+    font-size: 24px;
+}
+.arrow{
+    display: block;
+    position: absolute;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    top: 450px;
+}
+.arrow a {
+    position: fixed;
+    z-index: 20;
+}
+.arrow img {
+    opacity: 70%;
+    width: 45spx;
+}
+.cnten{
+    position: relative;
+}
+}
